@@ -1,7 +1,7 @@
-# uuid
+# UUID
 
-```javascript
-import { uuid } from "https://code4fukui.github.io/UUID/uuid.js";
-console.log(uuid());
+```js
+import { UUID } from "https://code4fukui.github.io/UUID/UUID.js";
+console.log(UUID.create());
 ```
 by crypto.randomUUID()
