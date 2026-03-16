@@ -1,13 +1,13 @@
 # UUID
 
-UUIDを簡単に生成することができるJavaScriptのライブラリです。`crypto.randomUUID()`または`Math.random()`を使って一意のUUIDを生成します。
+このJavaScriptライブラリはUUIDを簡単に生成するためのものです。`crypto.randomUUID()`が使える環境では、セキュアなUUIDを生成し、利用できないときはランダムな文字列を生成します。
 
 ## 機能
-- `crypto.randomUUID()`を使ったセキュアなUUID生成
-- `Math.random()`を使った擬似乱数によるUUID生成
+- `crypto.randomUUID()`を使用したセキュアなUUID生成
+- `Math.random()`を使用した疑似乱数によるUUID生成
 
 ## 使い方
-UUIDライブラリをインポートし、`UUID.create()`メソッドを呼び出すことで、UUIDを生成できます。
+UUIDライブラリをインポートし、`UUID.create()`メソッドを呼び出すことでUUIDを生成できます。
 
 ```js
 import { UUID } from "https://code4fukui.github.io/UUID/UUID.js";
